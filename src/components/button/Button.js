@@ -46,7 +46,7 @@ class Button extends Component {
     }
 
     const classes = classNames('ui-button', className, {[themeObj.class]: [theme] });
-
+ 
     return (
       <Base
         className={classes}
